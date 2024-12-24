@@ -15,4 +15,13 @@ Employees:
 names:
   - Madan Lal
   - Rishabh Mishra
+...
+---
+{
+  "names": [
+    "Madan Lal",
+    "Rishabh Mishra"
+  ]
+}
+...
 
