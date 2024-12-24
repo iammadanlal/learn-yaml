@@ -144,3 +144,72 @@ Using `>` Character, you can write string multiple line but parser will interpre
 ```
 
 <b>Note:</b> Indentation is important.
+
+#### Numbers
+
+In YAML, numerical data include integers (whole numbers), floats (numbers with a decimal point), exponentials, octals and hexadecimals:
+
+```yml
+# integer
+123
+
+# float
+4.5
+
+# exponential
+2.4e+02
+
+# octal
+0o32
+
+# hexadecimal (0123456789ABCDEF)
+0xBF
+```
+
+#### Booleans
+
+In YAML, these are same as other programming language and represented as either `true` or `false`.
+
+`true` and `false` are keywords in YAML. Use quotation marks if you want them interpreted as strings.
+
+#### Null
+
+Null values are represented with keyword `null` or the tilde `~` character.
+
+### Collections
+
+Collections in YAML can be:
+
+- Sequences (list/arrays)
+- Mappings (dictionaries/hashes)
+
+1.) To write a sequence, use a dash (`-`) followed by a space:
+
+```yml
+- Mother
+- Father
+- Son
+- Daughter
+```
+
+Each item in the sequence (list) is placed on a separate line, with a dash in front of the value. And each item in the list is on the same level. This is an example of simple 
+
+Let's see how nested sequence will look like:-
+
+```yml
+- Mother
+- Father
+ - Son
+ - Daughter
+```
+
+2.) Mappings allow you to list keys with values. Key/value pairs are the building blocks of YAML documents.
+
+Use a colon (`:`) followed by a space to create key/value pairs:-
+
+```yml
+Students:
+ name: Manoj Kumar
+ age: 21
+```
+
