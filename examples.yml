@@ -1,0 +1,18 @@
+# Example 1: Array of objects
+---
+Employees:
+  - name: Madan Lal
+    age: 26
+    job: "Software Engineer"
+    company: "Microsoft"
+  - name: Rishabh Mishra
+    age: 27
+    job: "Software Engineer"
+    company: "Google"
+...
+# Example 2: Array of strings
+---
+names:
+  - Madan Lal
+  - Rishabh Mishra
+
